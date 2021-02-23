@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobTaskBI.Core", "JobTaskBI.Core\JobTaskBI.Core.csproj", "{8419CAB9-D655-4393-8CCB-996D9CFC244F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobTaskBI.Service", "JobTaskBI.Service\JobTaskBI.Service.csproj", "{F909A2AE-F1CA-4908-9996-C912E1A0C2B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8419CAB9-D655-4393-8CCB-996D9CFC244F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8419CAB9-D655-4393-8CCB-996D9CFC244F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8419CAB9-D655-4393-8CCB-996D9CFC244F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8419CAB9-D655-4393-8CCB-996D9CFC244F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F909A2AE-F1CA-4908-9996-C912E1A0C2B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F909A2AE-F1CA-4908-9996-C912E1A0C2B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F909A2AE-F1CA-4908-9996-C912E1A0C2B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F909A2AE-F1CA-4908-9996-C912E1A0C2B1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00F5352C-C709-4499-BA1D-5B93E6103C55}
+	EndGlobalSection
+EndGlobal
