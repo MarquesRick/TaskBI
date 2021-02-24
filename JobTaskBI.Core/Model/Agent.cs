@@ -28,14 +28,20 @@ namespace Core.Model
         [_MapperTO("AGE_STATE")]
         public string age_state { get; set; }
 
+        [_MapperTO("AGE_CITY")]
+        public string age_city { get; set; }
+
         [_MapperTO("AGE_NEIGHBORHOOD")]
         public string age_neighborhood { get; set; }
 
         [_MapperTO("AGE_STREET")]
-        public int age_street { get; set; }
+        public string age_street { get; set; }
 
         [_MapperTO("AGE_STREETNUMBER")]
-        public string age_streetnumber { get; set; }
+        public int age_streetnumber { get; set; }
+
+        [_MapperTO("AGE_STREETNUMBERCOMPL")]
+        public string age_streetnumbercompl { get; set; }
 
         [_MapperTO("AGE_ZIPCODE")]
         public int age_zipcode { get; set; }
@@ -50,10 +56,10 @@ namespace Core.Model
         public string age_mail { get; set; }
 
         [_MapperTO("AGE_IMEILASTSYNC")]
-        public string age_imeilastasync { get; set; }
+        public string age_imeilastsync { get; set; }
 
         [_MapperTO("AGE_DATEHOURLASTSYNC")]
-        public int age_datehourlastsync { get; set; }
+        public DateTime age_datehourlastsync { get; set; }
 
         [_MapperTO("AGG_ID")]
         public int agg_id { get; set; }
@@ -89,22 +95,22 @@ namespace Core.Model
         public int age_id_insert { get; set; }
 
         [_MapperTO("AGE_DATETIMEINSERT")]
-        public int age_datetimeinsert { get; set; }
+        public DateTime age_datetimeinsert { get; set; }
 
         [_MapperTO("AGE_MODULEINSERT")]
         public string age_moduleinsert { get; set; }
 
         [_MapperTO("AGE_ID_LASTUPDATE")]
-        public string age_id_lastupdate { get; set; }
+        public int age_id_lastupdate { get; set; }
 
         [_MapperTO("AGE_DATETIMELASTUPDATE")]
-        public int age_datetimelastupdate { get; set; }
+        public DateTime age_datetimelastupdate { get; set; }
 
-        [_MapperTO("AGE_MODULEUPDATE")]
-        public string age_moduleupdate { get; set; }
+        [_MapperTO("AGE_MODULELASTUPDATE")]
+        public string age_modulelastupdate { get; set; }
 
         [_MapperTO("AGE_DATETIMELASTGPS")]
-        public int age_datetimelastgps { get; set; }
+        public DateTime age_datetimelastgps { get; set; }
 
         [_MapperTO("AGE_CUSTOMERPORTFOLIOFILTER")]
         public string age_customerportfoliofilter { get; set; }

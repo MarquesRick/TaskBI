@@ -131,6 +131,7 @@
     <Compile Include="DAL\ConNpgSqlDAL.cs" />
     <Compile Include="DAL\ConOracleDAL.cs" />
     <Compile Include="DAL\MapaDAL.cs" />
+    <Compile Include="Data\Base\ApiBase.cs" />
     <Compile Include="Data\Base\ActivityBase.cs" />
     <Compile Include="Data\Base\ActivitydefaultBase.cs" />
     <Compile Include="Data\Base\ActivityfieldBase.cs" />
@@ -190,6 +191,7 @@
     <Compile Include="Data\Base\UserBase.cs" />
     <Compile Include="Data\Base\WorkjourneyBase.cs" />
     <Compile Include="Data\Base\WorkjourneydayBase.cs" />
+    <Compile Include="Data\Commun\ApiCommun.cs" />
     <Compile Include="Data\Commun\ActivityCommun.cs" />
     <Compile Include="Data\Commun\ActivitydefaultCommun.cs" />
     <Compile Include="Data\Commun\ActivityfieldCommun.cs" />
@@ -249,6 +251,7 @@
     <Compile Include="Data\Commun\UserCommun.cs" />
     <Compile Include="Data\Commun\WorkjourneyCommun.cs" />
     <Compile Include="Data\Commun\WorkjourneydayCommun.cs" />
+    <Compile Include="Model\Api.cs" />
     <Compile Include="Model\Rs_29_Cont_Cancelamento.cs" />
     <Compile Include="Model\Activity.cs" />
     <Compile Include="Model\Activitydefault.cs" />

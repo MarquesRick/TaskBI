@@ -16,11 +16,11 @@ namespace Core.Model
         [_MapperTO("ADH_SEQ")]
         public int adh_seq { get; set; }
 
-        [_MapperTO("ADH_INITIALHOURS")]
-        public int adh_initialhours { get; set; }
+        [_MapperTO("ADH_INITIALHOUR")]
+        public int adh_initialhour { get; set; }
 
-        [_MapperTO("ADH_FINALHOURS")]
-        public int adh_finalhours { get; set; }
+        [_MapperTO("ADH_FINALHOUR")]
+        public int adh_finalhour { get; set; }
 
         [_MapperTO("ADH_DURATION")]
         public string adh_duration { get; set; }

@@ -15,7 +15,7 @@ namespace Core.Data.Base
         #region Constructor
         public ActivityBase()
         {
-
+             
         }
         #endregion
 

@@ -25,6 +25,9 @@ namespace Core.Model
         [_MapperTO("AAS_EXECUTEDTASKS")]
         public int aas_executedtasks { get; set; }
 
+        [_MapperTO("AAS_EXECUTEDACTIVITIES")]
+        public int aas_executedactivities { get; set; }
+
         [_MapperTO("AAS_COLLECTEDIMAGES")]
         public int aas_collectedimages { get; set; }
 

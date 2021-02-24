@@ -1,0 +1,32 @@
+﻿                //R9 
+               
+                var classe = new Rs_29_Cont_Cancelamento();
+                Console.WriteLine("------ Abrindo conexão com a tabela: {0} ------ ", classe.GetType().Name);
+                List<Rs_29_Cont_Cancelamento> lstRs29 = Rs_29_Cont_CancelamentoCommun.GetInstance().Get(new Rs_29_Cont_Cancelamento() { codcliente = "1078" }).ToList();
+                foreach (var itemRs29 in lstRs29)
+                {
+
+                    Console.WriteLine("Codigo cliente: " + itemRs29.codcliente + "|" + " Nome filial: " + itemRs29.nm_filial);
+                }
+                Console.WriteLine("\n------ Fechando conexão com a tabela: {0} ------ ", classe.GetType().Name);
+
+
+                ----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+                //api
+
+                var classeApi = new Api();
+                Console.WriteLine("------ Abrindo conexão com a tabela: {0} ------ ", classeApi.GetType().Name);
+                List<Api> lstApi = ApiCommun.GetInstance().Get(new Api { }).ToList();
+            
+                foreach (var itemApi in lstApi)
+                {
+
+                    Console.WriteLine(
+                        itemAltera.  + " | " +                 
+
+                        );
+
+                }
+                Console.ReadKey();
